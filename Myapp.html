@@ -12,6 +12,7 @@
 
         <!-- User defined Style sheet-->
         <link rel="stylesheet" type="text/css" href="CSS/Design.css">
+      
 
     </head>
 
@@ -31,20 +32,23 @@
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="My app.html">MY APP</a>
+                  <a class="nav-link" href="Myapp.html">MY APP</a>
                 </li>
               </ul>
               
             </div>
           </nav>
-            </div>
+          <div>            </div>
+            <header>
+
+            
           </header>
 
               <h1> Calculator Application :
                     <small>USD to INR</small>
                   </h1>
                   <section class="contact-wrap">
-                    <form action="" class="contact-form">
+                    <divclass="contact-form">
                       <fieldset class="mt-4">
                         <label for="firstNumber">Enter rate in USD :</label>
                         <input id="firstNumber" type="number" min="1" max="10000" value=7>
@@ -52,19 +56,29 @@
                       </fieldset>
                         
                         <div class="col-sm-12">
-                            <button class="result">Convert</button>
+                            <button id="MyAppcalculate">Convert</button>
                           </div>
                             
                       </div>
                       <div class="col-sm-12">
                         <div class="input-block textarea">
                           <label for="">Converted Rate to INR</label>
-                          <textarea rows="1" type="text" class="form-control"></textarea>
+                          <p id="inr">72</p>
                         </div>
                       </div>
                     
-                    </form>
+                    </div>
                   </section>
-                  <script src="USDTOINR.js"></script>
+                </div>
+                <div align="center">
+                  <button id="getJokeButton" class="btn btn-primary">Get Joke</button>
+                  <p id="result"></p>
+                  
+                </div>
+        
+                  <a href="test/qunit.html">Qunit test</a>
+                  <script src="demo.js"></script>
+                  </body>
+</html>
                   
                  
